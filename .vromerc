@@ -7,6 +7,7 @@ set disablesites=mail.google.com, reader.google.com // don’t run Vrome in thos
 " Define search engines. the value should be valid json looks like below.
 set searchengines+={"ddg":"https://duckduckgo.com/?q={{keyword}}"}
 set searchengines+={"wp":"https://en.wikipedia.org/wiki/{{keyword}}"}
+set searchengines+={"github":"https://github.com/search?q={{keyword}}&type=Everything&repo=&langOverride=&start_value=1"}
 
 " Change default search engine, default is google.
 set defaultsearch=ddg
