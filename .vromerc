@@ -1,15 +1,12 @@
 """ .vromerc example file
 " Note: sync with wiki
 
-" Change external editor, default is GVim
-set editor=macvim -f
-
 " Disable Vrome in those sites, Multiple URLs can be separated with ‘,’
 set disablesites=mail.google.com, reader.google.com // don’t run Vrome in those sites
 
 " Define search engines. the value should be valid json looks like below.
 " Please remember the first searchengine is the default one. in the below one, it is google
-set searchengines={"ddg":"https://duckduckgo.com/?q={{keyword}}","google":“http://www.google.com/search?q={{keyword}}”, “yahoo”:“http://search.yahoo.com/search?p={{keyword}}”,“wikipedia”:“http://en.wikipedia.org/wiki/{{keyword}}”,“answers”:“http://www.answers.com/main/ntquery?s={{keyword}}”,“yubnub”:“http://yubnub.org/parser/parse?command={{keyword}}”}
+set searchengines={"ddg":"https://duckduckgo.com/?q={{keyword}}", "google":“http://www.google.com/search?q={{keyword}}”, “yahoo”:“http://search.yahoo.com/search?p={{keyword}}”,“wikipedia”:“http://en.wikipedia.org/wiki/{{keyword}}”,“answers”:“http://www.answers.com/main/ntquery?s={{keyword}}”,“yubnub”:“http://yubnub.org/parser/parse?command={{keyword}}”}
 
 " Change default search engine, default is google.
 set defaultsearch=ddg
